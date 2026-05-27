@@ -1,0 +1,57 @@
+/* ================================================
+   Ice Portfolio – Main Stylesheet
+   ================================================
+   Structure:
+   1. CSS Variables (colors, fonts, spacing)
+   2. Reset & Base
+   3. Navigation
+   4. Home Page (index.html)
+   5. Projects Page & Cards
+   6. Project Detail Page
+   7. About Page
+   8. Contact Page
+   9. Footer
+   10. Utilities & Responsive
+   ================================================ */
+
+/* ----- 1. CSS Variables ----- */
+:root {
+  --color-primary: #0a0a0a;
+  --color-secondary: #ffffff;
+  --color-accent: #00e5ff;
+  --font-main: 'Inter', sans-serif;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+}
+
+/* ----- 2. Reset & Base ----- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: var(--font-main); background: var(--color-primary); color: var(--color-secondary); }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+/* ----- 3. Navigation ----- */
+nav { /* Add nav styles here */ }
+
+/* ----- 4. Home Page ----- */
+/* Hero, intro, highlights sections */
+
+/* ----- 5. Projects Page & Cards ----- */
+.projects-grid { /* Add grid styles here */ }
+.project-card { /* Add card styles here */ }
+
+/* ----- 6. Project Detail Page ----- */
+.project-detail { /* Add detail page styles here */ }
+
+/* ----- 7. About Page ----- */
+.about { /* Add about section styles here */ }
+
+/* ----- 8. Contact Page ----- */
+.contact { /* Add contact form styles here */ }
+
+/* ----- 9. Footer ----- */
+footer { /* Add footer styles here */ }
+
+/* ----- 10. Responsive ----- */
+@media (max-width: 768px) { /* Mobile styles here */ }
